@@ -2,6 +2,9 @@ public class MyLinkedList {
 	private Node head;
 	private int numNodes;
 
+
+	public MyLinkedList() {}
+
 	public MyLinkedList(Object data) {
 		head = new Node(data);
 		numNodes++;
